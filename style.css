@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* Universal selectors: it select every single element on the page */
+}
+.come{
+    display: block;
+    font-size: 20px;
+    padding-left: 50px;
+    background-color:yellow;
+    /* it makes the element a block-level container, taking up the full with available */
+}
+#come{
+    color:rgb(7, 7, 7);
+    padding-bottom: 20px 20px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    Display:inline;
+    background-color:rgba(0, 128, 0, 0.562);
+    /* makes the element an inline-level container, allowing other element to sit beside it */
+}
+ .inline-block{
+    display: inline-block;
+    font-size: 20px;
+ }
+ .static{
+    position: static;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    /* This is default value element are positioned according to the normal flow of the document */
+ }
+ .relative{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 100px;
+    color: rgb(199, 199, 10);
+    font-size: 20px;
+    /* The element is positioned relative to its normal position */
+ }
+ #absolute{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: rgb(199, 199, 10);
+    font-size: 20px;
+    /* The element is removed from the normal document flow and its position is relative to its nearest positioned ancestor */
+ }
+ #fixed{
+    position: fixed;
+ margin-top: 5px;
+    margin-left: 80px;
+    color: rgb(5, 5, 5);
+    background-color: brown;
+    font-size: 20px;
+ }
